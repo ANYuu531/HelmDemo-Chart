@@ -1,0 +1,15 @@
+releases:
+  - name: auth
+    chart: ./charts/microservice
+    values:
+      - ./charts/microservice/values/auth-values.yaml
+
+  - name: user
+    chart: ./charts/microservice
+    values:
+      - ./charts/microservice/values/user-values.yaml
+
+  - name: payment
+    chart: ./charts/microservice
+    values:
+      - ./charts/microservice/values/payment-values.yaml
