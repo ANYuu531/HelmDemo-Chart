@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: your-registry/payment-service
+  tag: 1.0.0
+
+env:
+  SAMPLE_ENV: demo
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
