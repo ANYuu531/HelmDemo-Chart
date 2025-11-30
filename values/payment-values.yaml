@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: https://github.com/ANYuu531/HelmDemo-UserServise
+  repository: https://github.com/ANYuu531/HelmDemo-PaymentServise
   tag: 1.0.0
 
 env:
